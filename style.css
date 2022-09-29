@@ -8,7 +8,7 @@ body {
 }
 
 .page {
-  width: 1280px;
+  width: 1092px;
   margin: 0 auto;
   padding-top: 71px;
 }
@@ -48,14 +48,15 @@ ul li a:hover {
 
 main {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+
 }
 
 p {
   font-family: 'Open Sans';
   font-size: 16px;
   line-height: 28px;
+  margin-top: 59px;
 }
 
 h1 {
@@ -63,7 +64,7 @@ h1 {
   line-height: 40px;
   font-weight: 700;
 
-  margin: 59px;
+  /* margin: 59px; */
   margin-top: 0;
   color: #FFFFFF;
 }
@@ -93,9 +94,9 @@ footer {
 .line {
   width: 568px;
   height: 0px;
+  align-items: center;
 
-  margin: 157px auto 27px;
-
+  margin: 157px auto 27px; 
 
   border: 1px solid #00BFA6;
 } 
